@@ -41,13 +41,16 @@ class ViewController: UIViewController {
 final class GetNameEndpoint: ObjectResponseEndpoint<String> {
     
     override var method: RESTClient.RequestType { return .get }
-    override var path: String { "/v1/cards" }
+    override var path: String { "/v1/public/characters" }
 //    override var queryItems: [URLQueryItem(name: "id", value: "1")]?
     
     override init() {
         super.init()
 
-        queryItems = [URLQueryItem(name: "name", value: "Black Lotus")]
+        queryItems = [URLQueryItem(name: "name", value: "Iron-Man"),
+                      URLQueryItem(name: "ts", value: "1"),
+                      URLQueryItem(name: "apikey", value: "d9b6f53924f20c519c1e0fba7a3bb50c"),
+                      URLQueryItem(name: "hash", value: "81e1317a245192e18375ee2f0737c731")]
     }
     
 }

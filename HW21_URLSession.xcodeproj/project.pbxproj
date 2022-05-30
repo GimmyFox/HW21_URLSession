@@ -17,6 +17,13 @@
 		976BB023284502B900D84869 /* HW21_URLSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BB022284502B900D84869 /* HW21_URLSessionTests.swift */; };
 		976BB02D284502B900D84869 /* HW21_URLSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BB02C284502B900D84869 /* HW21_URLSessionUITests.swift */; };
 		976BB02F284502B900D84869 /* HW21_URLSessionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BB02E284502B900D84869 /* HW21_URLSessionUITestsLaunchTests.swift */; };
+		976BB04A284504A800D84869 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BB049284504A800D84869 /* Model.swift */; };
+		976BB04C284504B400D84869 /* AppSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BB04B284504B400D84869 /* AppSetting.swift */; };
+		976BB04E284504C600D84869 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BB04D284504C600D84869 /* Endpoint.swift */; };
+		976BB050284504D000D84869 /* RESTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BB04F284504D000D84869 /* RESTClient.swift */; };
+		976BB052284504E100D84869 /* EndpointClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BB051284504E100D84869 /* EndpointClient.swift */; };
+		976BB054284504ED00D84869 /* EndpointClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BB053284504ED00D84869 /* EndpointClientError.swift */; };
+		976BB056284504F600D84869 /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BB055284504F600D84869 /* ServerError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		976BB028284502B900D84869 /* HW21_URLSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW21_URLSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		976BB02C284502B900D84869 /* HW21_URLSessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW21_URLSessionUITests.swift; sourceTree = "<group>"; };
 		976BB02E284502B900D84869 /* HW21_URLSessionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW21_URLSessionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		976BB049284504A800D84869 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		976BB04B284504B400D84869 /* AppSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetting.swift; sourceTree = "<group>"; };
+		976BB04D284504C600D84869 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		976BB04F284504D000D84869 /* RESTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTClient.swift; sourceTree = "<group>"; };
+		976BB051284504E100D84869 /* EndpointClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointClient.swift; sourceTree = "<group>"; };
+		976BB053284504ED00D84869 /* EndpointClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointClientError.swift; sourceTree = "<group>"; };
+		976BB055284504F600D84869 /* ServerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +118,13 @@
 				976BB008284502B700D84869 /* AppDelegate.swift */,
 				976BB00A284502B700D84869 /* SceneDelegate.swift */,
 				976BB00C284502B700D84869 /* ViewController.swift */,
+				976BB049284504A800D84869 /* Model.swift */,
+				976BB04B284504B400D84869 /* AppSetting.swift */,
+				976BB04D284504C600D84869 /* Endpoint.swift */,
+				976BB04F284504D000D84869 /* RESTClient.swift */,
+				976BB051284504E100D84869 /* EndpointClient.swift */,
+				976BB053284504ED00D84869 /* EndpointClientError.swift */,
+				976BB055284504F600D84869 /* ServerError.swift */,
 				976BB00E284502B700D84869 /* Main.storyboard */,
 				976BB014284502B900D84869 /* Assets.xcassets */,
 				976BB016284502B900D84869 /* LaunchScreen.storyboard */,
@@ -261,10 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976BB050284504D000D84869 /* RESTClient.swift in Sources */,
+				976BB04E284504C600D84869 /* Endpoint.swift in Sources */,
+				976BB04A284504A800D84869 /* Model.swift in Sources */,
 				976BB013284502B700D84869 /* HW21_URLSession.xcdatamodeld in Sources */,
+				976BB04C284504B400D84869 /* AppSetting.swift in Sources */,
 				976BB00D284502B700D84869 /* ViewController.swift in Sources */,
+				976BB054284504ED00D84869 /* EndpointClientError.swift in Sources */,
 				976BB009284502B700D84869 /* AppDelegate.swift in Sources */,
+				976BB052284504E100D84869 /* EndpointClient.swift in Sources */,
 				976BB00B284502B700D84869 /* SceneDelegate.swift in Sources */,
+				976BB056284504F600D84869 /* ServerError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
